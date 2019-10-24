@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"core/login/protobuf/login_pb"
 	"fmt"
 	"google.golang.org/grpc"
 	"log"

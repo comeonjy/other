@@ -1,9 +1,9 @@
 package main
 
 import (
-	"common/gorm"
-	"configure"
-	"core/login/protobuf/login_pb"
+	"other/common/gorm"
+	"other/common/configure"
+	"other/core/login/protobuf/login_pb"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc"

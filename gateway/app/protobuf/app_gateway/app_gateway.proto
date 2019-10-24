@@ -1,0 +1,14 @@
+syntax = "proto3";
+package app_gateway;
+
+
+
+message StringMessage {
+    string value = 1;
+}
+
+service YourService {
+    rpc Echo (StringMessage) returns (StringMessage) {
+
+    }
+}
